@@ -1,0 +1,4 @@
+export AWS_ACCESS_KEY_ID='AKIAXXXXXXXXXXXXXXXXXX'
+export AWS_SECRET_ACCESS_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+export AWS_DEFAULT_REGION='us-east-1'
+export AWS_DEFAULT_OUTPUT='json'

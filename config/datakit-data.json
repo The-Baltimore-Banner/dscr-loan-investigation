@@ -1,0 +1,5 @@
+{
+    "aws_user_profile": "data-team-datakit",
+    "s3_bucket": "tbb-datakit-data",
+    "s3_path": "2025-10__dscr-loan-investigation__analysis"
+  }
