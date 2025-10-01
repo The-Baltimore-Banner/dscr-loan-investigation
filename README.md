@@ -34,6 +34,12 @@ So many defaults could send neighborhoods spiraling and untether the families li
 
 ## Methodology
 
+## How we identified the New York portfolio of properties  
+
+After receiving a tip about foreclosures linked to two New York-based LLCs that had declared bankruptcy, we used records from those bankruptcies alongside land records, business filings and data from Open Corporates to compile a list of LLCs affiliated with Benjamin Eidlisz, Eluzer Gold and their associates. 
+
+We filtered the [real property data publicly available on Open Baltimore](https://data.baltimorecity.gov/datasets/64110b108565433d8da40dd0e422064e_0/explore) to find all of the properties owned by any of these LLCs. 
+
 ### How we counted DSCR Loans
 
 We started with every loan reported in publicly-available HMDA data for every year 2018 through 2024, narrowing down to our universe of loans by selecting only:
@@ -54,7 +60,7 @@ Additionally, we selected only for loans that have 30 to 40 year terms, are mark
 
 <a id="limitations"></a>
 
-## Limitations {#limitations}
+## Limitations 
 
 ### DSCR Loan definition
 
