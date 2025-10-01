@@ -10,7 +10,7 @@
 
 <a id="overview"></a>
 
-## Overview {#overview}
+## Overview
 
 In concentrated pockets of east and west Baltimore, dozens of homes received foreclosure notices and hit the auction block this spring at noticeably inflated prices. Nobody is buying them.
 
@@ -26,7 +26,7 @@ So many defaults could send neighborhoods spiraling and untether the families li
 
 <a id="data"></a>
 
-## Data {#data}
+## Data
 
 [Download the data folder for this project here](). Make sure that you put it in the root directory of this repo. This folder contains many of the pieces that you'll need to recreate the analysis from scratch, as well as the results from our work. You'll need to allocate about 50 GB of hard drive space for this folder.
 
@@ -68,7 +68,7 @@ There is no clear-cut way to separate DSCR loans from other types of loans inclu
 
 <a id="license"></a>
 
-## License {#license}
+## License
 
 Copyright 2025, The Venetoulis Institute for Local Journalism
 
