@@ -46,7 +46,7 @@ We started with every loan reported in publicly-available HMDA data for every ye
 
 -   "Originated" loans, or loans approved by the lender and accepted by the borrower.
 
--   First liens
+-   First liens: the lenders who own the loans in our universe will be the first to receive payment in the event of a default. 
 
 -   Loans secured by one-to-four unit rental properties
 
