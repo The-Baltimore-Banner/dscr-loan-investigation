@@ -1,4 +1,4 @@
-# dscr-loan-investigation
+# The housing hustle igniting a foreclosure crisis in Baltimore
 
 ### by [Sahana Jayaraman](mailto:sahana.jayaraman@thebanner.com)
 
