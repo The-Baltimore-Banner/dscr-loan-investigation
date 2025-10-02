@@ -28,7 +28,7 @@ So many defaults could send neighborhoods spiraling and untether the families li
 
 ## Data
 
-[Download the data folder for this project here](). Make sure that you put it in the root directory of this repo and unzip it. This folder contains many of the pieces that you'll need to recreate the analysis from scratch, as well as the results from our work. You'll need to allocate about 50 GB of hard drive space for this folder.
+[Download the data folder for this project here](https://tbb-public.s3.us-east-1.amazonaws.com/dscr-loan-investigation/data/data.tar.gz). Make sure that you put it in the root directory of this repo and unzip it. This folder contains many of the pieces that you'll need to recreate the analysis from scratch, as well as the results from our work. You'll need to allocate about 50 GB of hard drive space for this folder.
 
 <a id="method"></a>
 
