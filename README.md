@@ -53,7 +53,7 @@ We started with every loan reported in publicly available Home Mortgage Disclosu
 
 -   Loans with a closed line of credit; that is, real estate loans that award borrowers a lump sum of money to be paid back in installments over a set period of time.
 
-Aided by mortgage originators and experts — particularly Vadim Elenev, associate professor at the Johns Hopkins Carey Business School — we developed criteria to identify DSCR loans within this universe.
+Aided by mortgage originators and experts — particularly [Vadim Elenev](https://carey.jhu.edu/faculty/faculty-directory/vadim-elenev-phd), associate professor at the Johns Hopkins Carey Business School — we developed criteria to identify DSCR loans within this universe.
 
 We selected only loans for which neither the debt-to-income ratio nor the personal income figures of the borrower were reported. This was the most important filter we implemented, and we did so because lenders don’t rely upon a borrower’s income to extend them a DSCR loan.
 
