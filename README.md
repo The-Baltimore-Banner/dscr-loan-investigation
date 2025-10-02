@@ -12,23 +12,23 @@
 
 ## Overview
 
-In concentrated pockets of east and west Baltimore, dozens of homes received foreclosure notices and hit the auction block this spring at noticeably inflated prices. Nobody is buying them.
+In concentrated pockets of East and West Baltimore, dozens of homes received foreclosure notices and hit the auction block this spring at noticeably inflated prices. Nobody is buying them.
 
-They're part of a portfolio of more than 700 homes purchased by a small group of investors based in Spring Valley, New York, using a newly popular and poorly-regulated loan product called a debt-service coverage ratio, or DSCR, loan.
+They’re part of a portfolio of more than 700 homes purchased by a small group of investors based in Spring Valley, New York, who bought them using a newly popular and poorly regulated loan product called a debt service coverage ratio loan, or DSCR loan.
 
-At least five Wall Street-backed financiers “blacklisted” the buyers, as well as some of their associates and affiliated entities — and clamped down on lending in Baltimore starting this June.
+Starting in June, at least five Wall Street-backed financiers blacklisted the buyers, as well as some of their associates and affiliated entities — and clamped down on lending in Baltimore.
 
-But by then the New York buyers had amassed some \$90 million worth of loans from dozens of private lenders, including AmeriTrust Mortgage Corp. and RCN Capital, according to public land records. At least half of the Baltimore properties in the New Yorkers’ portfolio are in or nearing foreclosure.
+But by then the New York buyers had amassed tens of millions of dollars in loans from dozens of private lenders, according to public land records. At least half of the Baltimore properties in the New Yorkers’ portfolio are in or nearing foreclosure.
 
 So many defaults could send neighborhoods spiraling and untether the families living in them. And it has the potential to make Baltimore a ground zero for America’s next great foreclosure crisis, dooming the [effort to clear the city’s stock of vacant homes](https://www.thebanner.com/community/housing/wes-moore-baltimore-vacants-KK5KD2EY65G4XB447QJB3WFHD4/) and [scaring off more investment](https://www.thebanner.com/community/housing/baltimore-vacant-home-fund-3RDGKWYWFJAJVDAFCYEWVJJ6JQ/) at a time it’s sorely needed.
 
-[Read the story here]().
+[Read the story here](thebanner.com/community/housing/baltimore-housing-foreclosure-dscr-HFPWHAWCY5HRLPR2VZSUAQWW24/).
 
 <a id="data"></a>
 
 ## Data
 
-[Download the data folder for this project here](). Make sure that you put it in the root directory of this repo. This folder contains many of the pieces that you'll need to recreate the analysis from scratch, as well as the results from our work. You'll need to allocate about 50 GB of hard drive space for this folder.
+[Download the data folder for this project here](). Make sure that you put it in the root directory of this repo and unzip it. This folder contains many of the pieces that you'll need to recreate the analysis from scratch, as well as the results from our work. You'll need to allocate about 50 GB of hard drive space for this folder.
 
 <a id="method"></a>
 
@@ -36,27 +36,28 @@ So many defaults could send neighborhoods spiraling and untether the families li
 
 ## How we identified the New York portfolio of properties  
 
-After receiving a tip about foreclosures linked to two New York-based LLCs that had declared bankruptcy, we used records from those bankruptcies alongside land records, business filings and data from Open Corporates to compile a list of LLCs affiliated with Benjamin Eidlisz, Eluzer Gold and their associates. 
+After receiving a tip about foreclosures linked to two New York-based LLCs that had declared bankruptcy, we used records from those bankruptcies alongside land records, business filings and data from OpenCorporates to compile a list of LLCs affiliated with Benjamin Eidlisz, Eluzer Gold and their associates. 
 
-We filtered the [real property data publicly available on Open Baltimore](https://data.baltimorecity.gov/datasets/64110b108565433d8da40dd0e422064e_0/explore) to find all of the properties owned by any of these LLCs. 
+We filtered the [real property data publicly available on Open Baltimore](https://data.baltimorecity.gov/datasets/64110b108565433d8da40dd0e422064e_0/explore) to find all the properties owned by any of these LLCs. 
+
 
 ### How we counted DSCR Loans
 
-We started with every loan reported in publicly-available HMDA data for every year 2018 through 2024, narrowing down to our universe of loans by selecting only:
+We started with every loan reported in publicly available Home Mortgage Disclosure Act data for every year from 2018 through 2024, narrowing down to our universe of loans by selecting only:
 
--   "Originated" loans, or loans approved by the lender and accepted by the borrower.
+-   “Originated” loans, or loans approved by the lender and accepted by the borrower.
 
--   First liens: the lenders who own the loans in our universe will be the first to receive payment in the event of a default. 
+-   First liens: The lenders who own the loans in our universe are the first to receive payment in the event of a default.
 
--   Loans secured by one-to-four unit rental properties
+-   Loans secured by one- to four-unit rental properties.
 
 -   Loans with a closed line of credit; that is, real estate loans that award borrowers a lump sum of money to be paid back in installments over a set period of time.
 
 Aided by mortgage originators and experts — particularly Vadim Elenev, associate professor at the Johns Hopkins Carey Business School — we developed criteria to identify DSCR loans within this universe.
 
-Our analysis selects only loans for which neither the debt-to-income ratio nor the personal income figures of the borrower were reported. This is the most important filter we implement, and we do so because lenders don't rely upon a borrower's income to extend them a DSCR loan.
+We selected only loans for which neither the debt-to-income ratio nor the personal income figures of the borrower were reported. This was the most important filter we implemented, and we did so because lenders don’t rely upon a borrower’s income to extend them a DSCR loan.
 
-Additionally, we selected only for loans that have 30 to 40 year terms, are marked business-purpose and haven't been purchased by a government-sponsored enterprise, like Fannie Mae or Freddie Mac.
+Additionally, we selected only loans that have 30- to 40-year terms, are marked business-purpose and haven’t been purchased by a government-sponsored enterprise, like Fannie Mae or Freddie Mac.
 
 <a id="limitations"></a>
 
