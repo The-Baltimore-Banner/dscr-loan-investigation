@@ -25,15 +25,15 @@ library(kableExtra)
 
 # Load data
 
--   Real Property data obtained from [Open Baltimore]()
+-   Real Property data obtained from [Open Baltimore](https://data.baltimorecity.gov/datasets/64110b108565433d8da40dd0e422064e_0/explore)
 
--   Permitting data obtained from [Open Baltimore]()
+-   Permitting data obtained from [Open Baltimore](https://data.baltimorecity.gov/datasets/189e6d1c65df4e13b38c0027cee574f6_3/explore)
 
--   Vacant building data obtained from [Open Baltimore]()
+-   Vacant building data obtained from [Open Baltimore](https://data.baltimorecity.gov/datasets/691d65a5f85640e6aaa46930bd9dc102_1/explore?location=39.296383%2C-76.620458%2C11.52)
 
--   Water Billing data obtained via a proprietary Python script that pulls html from [Baltimore' water billl payment portal](). The code for that script is not included in this repository. The scraper couldn't parse the addresses for three of the properties in this portfolio; After re-geocoding the properties I manually filled in whether or not bills at those three properties had been paid this year.
+-   Water Billing data obtained via a proprietary Python script that pulls html from [Baltimore' water billl payment portal](https://pay.baltimorecity.gov/water). The code for that script is not included in this repository. The scraper couldn't parse the addresses for three of the properties in this portfolio; After re-geocoding the properties I manually filled in whether or not bills at those three properties had been paid this year.
 
--   Home Mortgage data obtained from the U.S. Consumer Financial Protection Bureau's HMDA data browser. The dataset loaded below is created in `utils.R`, included in the `analysis` folder of this repository. Should you wish to re-generate this file from scratch, please please run `utils.R` in the `analysis` folder. Download raw data from [this s3 bucket](http://example.com) and place the `hmda` folder into `data/raw/`, and the code should work for you.
+-   Home Mortgage data obtained from the U.S. Consumer Financial Protection Bureau's HMDA data browser. The dataset loaded below is created in `utils.R`, included in the `analysis` folder of this repository. Should you wish to re-generate this file from scratch, please run `utils.R` in the `analysis` folder.
 
 ```{r}
 
